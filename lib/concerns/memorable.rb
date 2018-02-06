@@ -3,7 +3,7 @@ module Concerns::Memorable
     all.clear
   end
 
-  def create(name)
+  def all.create(name)
     new(name).tap{ |s| s.save }
   end
 end
