@@ -32,12 +32,7 @@ class Song
   end
 
   def self.create(name)
-    song = new(name)
-    song.save
-    song
-
-    # Or, as a one-liner:
-    # new(name).tap{ |s| s.save }
+    new(name).tap{ |s| s.save }
   end
 
   def self.new_from_filename(filename)
