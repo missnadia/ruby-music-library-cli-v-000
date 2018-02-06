@@ -1,6 +1,7 @@
 
 class Artist
   extend Concerns::Findable
+  extend Concerns::Memorable
 
   attr_accessor :name
   attr_reader :songs
