@@ -1,4 +1,4 @@
-module Memorable
+module Concerns::Memorable
   def reset_all
     all.clear
   end
