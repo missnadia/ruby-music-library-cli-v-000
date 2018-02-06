@@ -1,5 +1,6 @@
 class Song
   extend Concerns::Memorable
+
   attr_accessor :name
   attr_reader :artist, :genre
 
@@ -23,10 +24,6 @@ class Song
 
   def self.all
     @@all
-  end
-
-  def self.destroy_all
-    all.clear
   end
 
   def save
