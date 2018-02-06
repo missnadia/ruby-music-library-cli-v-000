@@ -1,4 +1,5 @@
 class Song
+  extend Concerns::Findable
   extend Concerns::Memorable
 
   attr_accessor :name
