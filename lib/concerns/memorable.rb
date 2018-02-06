@@ -1,5 +1,5 @@
 module Concerns::Memorable
-  def reset_all
+  def all.reset_all
     all.clear
   end
 end
