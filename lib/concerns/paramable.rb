@@ -1,4 +1,4 @@
-module Memorable
+module Concerns::Memorable
   module ClassMethods
     def reset_all
       all.clear
