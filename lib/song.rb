@@ -1,5 +1,5 @@
-
 class Song
+  extend Concerns::Memorable
   attr_accessor :name
   attr_reader :artist, :genre
 
